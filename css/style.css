@@ -66,6 +66,7 @@ background-color: var(--bbg);
     color: var(--obb);
     padding: 10px 5px;
 }
+
 .trending .card img{
     height: 400px;
 }
@@ -143,4 +144,56 @@ background-color: var(--bbg);
     text-align: center;    
     padding: 5px;
     color: var(--oobb);
+}
+
+@media screen and (max-width: 400px)
+{
+    
+.popular-grid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    color: #fff;
+}
+
+.popular-grid .popular-body{
+    border-right: 2px solid #fff;
+    text-align: center;
+    font-size: 8px;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    font-weight: 400;
+ }
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+
+.footer-grid a{
+    color: var(--oobb);
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+.footer-down h1{
+    text-align: center;
+    color: var(--oobb);
+    font-size: 12px;
+   padding-top: 20px;
+}
+.footer-link{
+    margin: auto;
+    padding-left: 140px;
+   
+}
+.footer-link a i{
+    text-align: center;    
+    padding: 5px;
+    color: var(--oobb);
+}
+.card{
+    margin:0px 0px 20px 0px;
+    
+}
 }
